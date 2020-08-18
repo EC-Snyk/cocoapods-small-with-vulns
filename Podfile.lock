@@ -1,0 +1,26 @@
+PODS:
+  - expat (2.1)
+  - Mosquitto (1.4.8):
+    - Mosquitto/TLS (= 1.4.8)
+    - Mosquitto/WithoutTLS (= 1.4.8)
+  - Mosquitto/TLS (1.4.8):
+    - OpenSSL-Universal (~> 1.0.1.19)
+  - Mosquitto/WithoutTLS (1.4.8)
+  - OpenSSL-Universal (1.0.1.20)
+
+DEPENDENCIES:
+  - expat (= 2.1)
+  - Mosquitto (= 1.4.8)
+
+SPEC REPOS:
+  trunk:
+    - expat
+    - Mosquitto
+    - OpenSSL-Universal
+
+SPEC CHECKSUMS:
+  expat: 4cca2d53af2e3ac99ded76dd6daa8cc618fc627b
+  Mosquitto: d5070269b43acc98e4a8272b9e08b73d5de86a5c
+  OpenSSL-Universal: 71f2c4b2ae758e2218090f905e95ca0ac5c01be7
+
+COCOAPODS: 1.8.1
